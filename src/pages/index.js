@@ -12,8 +12,8 @@ export default () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{title || 'Gatsby Simplefolio'}</title>
-        <html lang={lang || 'en'} />
+        <title>Festa de São Sebastião</title>
+        <html lang={lang || 'pt-br'} />
         <meta name="description" content={description || 'Gatsby Simplefolio'} />
       </Helmet>
       <App />

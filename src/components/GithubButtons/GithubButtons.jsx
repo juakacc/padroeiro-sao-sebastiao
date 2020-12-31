@@ -2,7 +2,7 @@ import React from 'react';
 import GitHubButton from 'react-github-btn';
 
 const GithubButton = () => (
-  <>
+/*  <>
     <GitHubButton
       className="github-button"
       href="https://github.com/cobidev/gatsby-simplefolio/fork"
@@ -23,7 +23,7 @@ const GithubButton = () => (
     >
       Star
     </GitHubButton>
-  </>
+  </>*/<></>
 );
 
 export default GithubButton;
