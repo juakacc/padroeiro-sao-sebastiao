@@ -33,6 +33,7 @@ const Footer = () => {
               );
             })}
         </div>
+        <p>Compartilhe o site para que mais pessoas tenham acesso!</p>
         <hr />
         <p className="footer__text">
           © {new Date().getFullYear()} - Autor desconhecido, utilizando o template de {' '}
