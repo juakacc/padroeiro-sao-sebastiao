@@ -4,6 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
+import { Link } from 'react-scroll';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
@@ -43,19 +44,14 @@ const About = () => {
                 <p className="about-wrapper__info-text">
                   Como a tecnologia ganhou espaço com a atual situação, este canal foi criado com o intuito de divulgar informações a respeito da festa, comunicados, informações, etc. Com a finalidade de mantermos firmes a nossa fé, vamos juntos vivenciar esse momento bastante especial.
                 </p>
-                {resume && (
-                  <span className="d-flex mt-3">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="cta-btn cta-btn--resume"
-                      href={resume}
-                    >
-                      Resume
-                    </a>
-                  </span>
-                )}
-              </div>
+                  <p className="hero-cta">
+                    <span className="cta-btn cta-btn--resume">
+                      <Link to="programacao" smooth duration={1000}>
+                        Programação
+                      </Link>
+                    </span>
+                  </p>
+                </div>
             </Fade>
           </Col>
         </Row>
