@@ -65,18 +65,18 @@ export const projectsData = [
     url: '',
   },{
     id: nanoid(),
-    img: 'default.png',
+    img: '01_01.png',
     title: '01/01/2021 | 19h30',
     info: 'Celebração na comunidade do Balanço',
     info2: '',
-    url: '',
+    url: 'https://www.facebook.com/santaanapascom/posts/2767400783502775',
   },{
     id: nanoid(),
-    img: 'default.png',
+    img: '02_01.png',
     title: '02/01/2021 | 19h30',
     info: 'Celebração na comunidade de Campos',
     info2: '',
-    url: '',
+    url: 'https://www.facebook.com/santaanapascom/posts/2767406793502174',
   },{
     id: nanoid(),
     img: 'default.png',
