@@ -5,18 +5,16 @@ import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import { headData } from '../mock/data';
 import '../style/main.scss';
 
 export default () => {
-  const { lang } = headData;
 
   return (
     <>
       <Helmet>
         <meta charSet="utf-8" />
         <title>Página não encontrada</title>
-        <html lang={lang || 'en'} />
+        <html lang={'pt-br'} />
         <meta name="description" content="Page not found" />
       </Helmet>
       <section id="hero" className="jumbotron">
