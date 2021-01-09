@@ -85,18 +85,18 @@ export const projectsData = [
     url: 'https://www.facebook.com/santaanapascom/posts/2770138996562287',
   },{
     id: nanoid(),
-    img: 'default.png',
+    img: '06_01.png',
     title: '06/01/2021 | 19h30',
     info: 'Celebração na comunidade de Aroeiras',
     info2: '',
-    url: '',
+    url: 'https://www.facebook.com/santaanapascom/posts/2770896839819836',
   },{
     id: nanoid(),
-    img: 'default.png',
+    img: '07_01.png',
     title: '07/01/2021 | 19h30',
     info: 'Celebração na comunidade do Curralinho',
     info2: '',
-    url: '',
+    url: 'https://www.facebook.com/santaanapascom/posts/2770902726485914',
   },{
     id: nanoid(),
     img: 'default.png',
