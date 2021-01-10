@@ -99,11 +99,11 @@ export const projectsData = [
     url: 'https://www.facebook.com/santaanapascom/posts/2770902726485914',
   },{
     id: nanoid(),
-    img: 'default.png',
+    img: '08_01.png',
     title: '08/01/2021 | 19h30',
     info: 'Celebração na comunidade do Miramar',
     info2: '',
-    url: '',
+    url: 'https://www.facebook.com/santaanapascom/posts/2771591996416987',
   },{
     id: nanoid(),
     img: 'default.png',
