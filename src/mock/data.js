@@ -106,11 +106,11 @@ export const projectsData = [
     url: 'https://www.facebook.com/santaanapascom/posts/2771591996416987',
   },{
     id: nanoid(),
-    img: 'default.png',
+    img: '09_01.png',
     title: '09/01/2021 | 19h30',
     info: 'Celebração na comunidade de Boa Vista',
     info2: '', 
-    url: '',
+    url: 'https://www.facebook.com/santaanapascom/posts/2772984599611060',
   },
 ];
 

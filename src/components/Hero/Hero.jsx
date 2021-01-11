@@ -43,6 +43,13 @@ const Header = () => {
               </Link>
             </span>
           </p>
+          <p className="hero-cta">
+            <span className="cta-btn cta-btn--hero">
+              <Link to="contact" smooth duration={1000}>
+                Contribua
+              </Link>
+            </span>
+          </p>
         </Fade>
       </Container>
     </section>
